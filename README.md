@@ -1,35 +1,35 @@
-# django-portfolio
-Instructions (Windows 10x64):
-Some commands may differ depending on OS. Just google it.
+# Blog and Portfolio Site.
+* Developed By Django Web Framework.
 
-Install latest version of Python3 (64 bit).
+## Instructions (Windows 10x64):
+* Some commands may differ depending on OS. Just google it.
 
-Install virtual environment:
+* Install latest version of Python3 (64 bit).
 
-Open cmd
-:~$ pip install virtualenv
-Choose destination: :~$ cd Desktop> virtualenv YourEnvironmentName
-Clone this GitHub repository into local machine.
+* Install virtual environment:
+  1. Open cmd
+  2. :~$ pip install virtualenv
+  3. Choose destination:  :~$ cd Desktop> virtualenv YourEnvironmentName
+  
+* Clone this GitHub repository into local machine.
 
-Go to project directory (GitHub repository) where 'manage.py' file exist.
+* Go to project directory (GitHub repository) where 'manage.py' file exist.
 
-Copy 'YourEnvironmentName' folder to the 'GitHub repository'.
+* Copy 'YourEnvironmentName' folder to the 'GitHub repository'.
 
-Active virtual environment:
+* Active virtual environment:
+  1. :~$ cd YourEnvironmentName\Scripts>
+  2. :~$ activate
+  3. (YourEnvironmentName):~$ This '(YourEnvironmentName)' sign will be shown up if virtual environment activated successfully.
+  4. :~$ cd../.. (exit from Scripts)
 
-:~$ cd YourEnvironmentName\Scripts>
-:~$ activate
-(YourEnvironmentName):~$ This '(YourEnvironmentName)' sign will be shown up if virtual environment activated successfully.
-:~$ cd../.. (exit from Scripts)
-Install all the requirements using previously opened CMD where the virtual environment was activated:
+* Install all the requirements using previously opened CMD where the virtual environment was activated:
+  >> (YourEnvironmentName):~$ pip install -r requirements.txt
+  
+* Run Local Server:
+  >> (YourEnvironmentName):~$ python manage.py runserver
 
-(YourEnvironmentName):~$ pip install -r requirements.txt
-
-Run Local Server:
-
-(YourEnvironmentName):~$ python manage.py runserver
-
-PATHs:
-
-System Admin Dashboard: http://127.0.0.1:8000/admin/ (default)
-Homepage: http://127.0.0.1:8000/home
+* PATHs:
+  1. System Admin Dashboard: http://127.0.0.1:8000/admin/ (default)
+  2. Homepage: http://127.0.0.1:8000/home
+  
